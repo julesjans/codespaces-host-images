@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  app:
+    image: mcr.microsoft.com/devcontainers/base:jammy
+    volumes:
+      - .:/workspace
+      # - ~/.aws:/home/vscode/.aws
+
+    command: sleep infinity
+    # Add any other necessary configurations for your service

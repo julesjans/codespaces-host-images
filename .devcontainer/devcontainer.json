@@ -6,6 +6,7 @@
 	// Use a Docker Compose file for the dev container
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "app",
+	"workspaceFolder": "/workspaces/codespaces-host-images",
 
 	"mounts": [
 		"source=${env:HOME}/.aws,target=/home/vscode/.aws,type=bind"

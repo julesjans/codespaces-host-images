@@ -4,7 +4,7 @@ services:
   app:
     image: mcr.microsoft.com/devcontainers/base:jammy
     volumes:
-      - .:/workspace
+      - ..:/workspaces/codespaces-host-images:cached
       # - ~/.aws:/home/vscode/.aws
 
     command: sleep infinity
